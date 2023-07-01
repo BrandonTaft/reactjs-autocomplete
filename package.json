@@ -1,0 +1,72 @@
+{
+  "name": "reactjs-autocomplete",
+  "version": "0.0.1",
+  "description": "Accessible, customizable, and easy to implement , autocomplete search input for react",
+  "author": "BTaftCan <btaftcan@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "component",
+    "autocomplete",
+    "search",
+    "textbox",
+    "input",
+    "react input",
+    "react search bar",
+    "react autocomplete",
+    "react auto complete",
+    "word suggestions"
+  ],
+  "private": false,
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BrandonTaft/npm-react-autocomplete.git"
+  },
+  "dependencies": {
+    "lodash.isequal": "^4.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/preset-env": "^7.20.2",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/core-js": "^2.5.5",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  }
+}
